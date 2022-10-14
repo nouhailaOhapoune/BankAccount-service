@@ -1,4 +1,4 @@
-<<title> Création d'un microservice avec sa documentation swagger</title>
+<title> Création d'un microservice avec sa documentation swagger</title>
 
 <h2>Les dépendances utlisées:</h2>
 Spring web -> pour créer une application web spring MVC
@@ -23,3 +23,4 @@ ou
 Un restController (@RestController)
 pour les traitements complexes qui font l'appel a la couche service
 Pour afficher le fichier JSON, on écrit :http://localhost:8082/api/bankAccounts
+<img src="Images/restController.png">
