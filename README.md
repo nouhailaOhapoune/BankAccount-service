@@ -1,4 +1,4 @@
-<title> Création d'un microservice avec sa documentation swagger</title>
+<h1>                Création d'un microservice avec sa documentation swagger</h1>
 
 <h2>Les dépendances utlisées:</h2>
 Spring web -> pour créer une application web spring MVC
@@ -18,8 +18,9 @@ web-->bankAccountRestController( Mapping)
 Il y a 2 méthodes pour créer un web service :
 Utilisation de Spring data rest (@RepositoryRestResource) pour les traitements simples (CRUD operations)
 Pour afficher le fichier JSON , on écrit :http://localhost:8082/bankAccounts
-
+<img src="Images/dataRest.png">
 ou
 Un restController (@RestController)
 pour les traitements complexes qui font l'appel a la couche service
 Pour afficher le fichier JSON, on écrit :http://localhost:8082/api/bankAccounts
+<img src="Images/restController.png">
