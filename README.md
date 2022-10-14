@@ -17,6 +17,8 @@ web-->bankAccountRestController( Mapping) <br>
 <h2>Résultats:</h2>
 On peut voir la base des données sur l'interface web 'h2 console' <br><br>
 <img src="Images/h2-console.png"> <br>
+Et pour tester le fichier JSON (avec CRUD OPERATIONS) , on a utilisé en premier 'postman' <br><br>
+<img src="Images/postMan.png"> <br>
 
 Il y a 2 méthodes pour créer un web service : <br>
 Utilisation de Spring data rest (@RepositoryRestResource) pour les traitements simples (CRUD operations) <br>
